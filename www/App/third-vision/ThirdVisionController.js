@@ -29,7 +29,7 @@ angular.module('starter')
             LANDMARK_DETECTION: 'landmark'
         };
 
-        var api_key = 'AIzaSyCtDoJsrATh7SV3o2BxATM__LcKow6iamo';
+        var api_key = 'YOUR_API_KEY';
 
 
         $scope.takePicture = function () {
