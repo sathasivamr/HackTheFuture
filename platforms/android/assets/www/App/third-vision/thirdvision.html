@@ -1,0 +1,13 @@
+<ion-view title="Notes">
+  <header class="bar bar-header bar-stable">
+    <h1 class="title">Third Vision</h1>
+  </header>
+  <ion-content class="has-header padding">
+    <img ng-if="current_image != ''" src="{{ current_image }}" class="picture">
+    <h3 class="text-center" ng-show="image_description">{{ image_description }}</h3>
+    <button class="button button-positive button-block" ng-click="takePicture()">
+		Take Picture
+		</button>
+  </ion-content>
+
+</ion-view>
